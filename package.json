@@ -1,0 +1,31 @@
+{
+  "private": true,
+  "type": "module",
+  "name": "ts-template",
+  "packageManager": "pnpm@10.6.2",
+  "version": "0.0.0",
+  "description": "",
+  "scripts": {
+    "fmt": "biome format src/* --write",
+    "typecheck": "tsc --noEmit",
+    "check": "biome check src/*"
+  },
+  "keywords": [],
+  "author": "koralle",
+  "license": "MIT",
+  "engines": {
+    "node": ">=22.14.0",
+    "pnpm": ">=10.6.2",
+    "npm": "please use pnpm!",
+    "yarn": "please use pnpm!"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "^1.9.4",
+    "@tsconfig/strictest": "^2.0.5",
+    "@types/node": "^22.13.10",
+    "lefthook": "^1.11.3",
+    "pnpm": "^10.6.2",
+    "typescript": "^5.8.2",
+    "vitest": "^3.0.8"
+  }
+}
