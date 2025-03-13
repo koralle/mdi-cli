@@ -1,5 +1,4 @@
 {
-  "private": true,
   "type": "module",
   "name": "ts-template",
   "packageManager": "pnpm@10.6.2",
