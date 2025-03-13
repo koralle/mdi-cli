@@ -1,6 +1,6 @@
 {
   "type": "module",
-  "name": "@koralle/mdi-cli",
+  "name": "mdi-cli",
   "packageManager": "pnpm@10.6.2",
   "version": "0.0.0",
   "description": "",
